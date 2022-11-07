@@ -1,0 +1,8 @@
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+groceryList.shift(0);
+console.log(groceryList);
+
+groceryList.unshift('pop corn');
+console.log(groceryList);
+
+console.log(groceryList.slice(1,4));
